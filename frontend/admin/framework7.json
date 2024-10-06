@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/evgeniievstafev/PycharmProjects/pr/pielo-core/pixelo",
+  "type": [
+    "web"
+  ],
+  "name": "Pixelo",
+  "framework": "react",
+  "template": "single-view",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
