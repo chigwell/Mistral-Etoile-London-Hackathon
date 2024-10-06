@@ -27,7 +27,6 @@ const ReportPage = () => {
     { name: "Misinformation Exposure", level: 0 },
     { name: "In-App Purchases", level: 0 },
     { name: "Malware/Virus Exposure", level: 0 },
-    { name: "Online Gambling", level: 0 },
     { name: "gambling_betting_content", level: 0 },
   ]);
 
