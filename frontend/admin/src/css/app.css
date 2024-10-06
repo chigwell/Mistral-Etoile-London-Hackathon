@@ -1,0 +1,8 @@
+/* Your app custom styles here */
+
+.item-subtitle {
+  white-space: normal !important;
+}
+.css-label--label {
+  color: white !important;
+}

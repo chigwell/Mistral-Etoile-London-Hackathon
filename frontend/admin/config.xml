@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    id="etoile.admin.evgenii.evstafev"
+    version="1.0.0">
+    <name>etoile-admin</name>
+    <description></description>
+    <author email="chigwel@gmail.com" href="https://www.linkedin.com/in/eugene-evstafev-716669181/">
+        Evgenii (Eugene) Evstafev
+    </author>
+
+    <content src="index.html" />
+
+    <!-- Security Related Settings -->
+    <access origin="https://cordova.apache.org" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="300" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreenBackgroundColor" value="#FFFFFFFF" />
+
+    <!-- Platform Configs & Platform Overriding Configs-->
+    <platform name="android">
+        <preference name="android-build-tool" value="gradle" />
+        <plugin name="cordova-android-support-gradle-release" source="npm" />
+        <preference name="android-targetSdkVersion" value="34"/>
+        <plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+        <preference name="xwalkMultipleApk" value="false" />
+
+        <preference name="android-signed" value="true"/>
+        <icon src="res/icon/android/hdpi.png" density="hdpi" />
+        <icon src="res/icon/android/ldpi.png" density="ldpi" />
+        <icon src="res/icon/android/mdpi.png" density="mdpi" />
+        <icon src="res/icon/android/xhdpi.png" density="xhdpi" />
+        <icon src="res/icon/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/icon/android/xxxhdpi.png" density="xxxhdpi" />
+        <preference name="AndroidWindowSplashScreenBackgroundColor" value="0xFFFFFFFF" /> <!-- Set background to white -->
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splash-square.png" /> <!-- Specify the animated icon if needed -->
+        <preference name="AndroidWindowSplashScreen" value="res/screen/android/splash-port-hdpi.png" />
+        <preference name="AndroidWindowSplashScreenDelay" value="3000" /> <!-- Delay before splash screen disappears -->
+        <preference name="AndroidWindowSplashScreenShowSpinner" value="true" /> <!-- Optional: show a spinner -->
+        <preference name="AndroidWindowSplashScreenSpinnerColor" value="lightgray" /> <!-- Optional: set spinner color -->
+    </platform>
+    <platform name="ios"></platform>
+</widget>
