@@ -50,6 +50,8 @@ npm run dev
 
 This command starts the development server, allowing you to interact with the visualized data, including graphs, lists, and detailed insight reports.
 
+![Etoile Front-End Graph](graph.gif)
+
 ## Usage and Examples
 
 To utilize the functionality provided by the `Etoile` suite, refer to the individual package documentation linked above. Each package includes examples and detailed usage instructions tailored to its specific capabilities.
