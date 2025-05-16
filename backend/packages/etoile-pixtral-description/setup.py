@@ -7,7 +7,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='etoile_pixtral_description',
-    version='0.0.1',
+    version='2025.5.160702',
     author='Eugene Evstafev',
     author_email='chigwel@gmail.com',
     description='',

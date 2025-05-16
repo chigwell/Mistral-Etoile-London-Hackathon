@@ -1,6 +1,7 @@
 [![PyPI version](https://badge.fury.io/py/etoile_generate.svg)](https://badge.fury.io/py/etoile_generate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://static.pepy.tech/badge/etoile_generate)](https://pepy.tech/project/etoile_generate)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
 
 # etoile_generate
 
